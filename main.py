@@ -53,6 +53,7 @@ def create_enemy():
     return [enemy, enemy_rect, enemy_move]
 
 def create_bonus():
+
     bonus_size =  (30, 30)
     bonus = pygame.image.load('bonus.png').convert_alpha()  #pygame.Surface(bonus_size)
     # bonus.fill(COLOR_YELLOW)
